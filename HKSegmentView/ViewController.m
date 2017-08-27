@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     HKSegmentView *view = [[HKSegmentView alloc]initWithFrame:CGRectMake(20, 200, self.view.bounds.size.width - 40, 40)];
-    view.titileS = @[@"私教课",@"团操课",@"旅游课",@"跑操课"];
+    view.titileS = @[@"红发",@"黑胡子",@"大妈",@"凯多"];
     [self.view addSubview:view];
     
 }
